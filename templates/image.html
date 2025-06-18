@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Image Summarization</title>
+</head>
+<body>
+  <h2>🖼️ Image Summarization</h2>
+  <form action="/process_image" method="POST" enctype="multipart/form-data">
+    <label for="image">Upload an image (including handwritten):</label>
+    <input type="file" name="image" accept="image/*" required>
+    <br><br>
+    <button type="submit">Summarize Image</button>
+  </form>
+  <br>
+  <a href="/">← Back to Home</a>
+</body>
+</html>
